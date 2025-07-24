@@ -6,7 +6,7 @@ class Splash extends StatelessWidget {
   const Splash({super.key});
 
   @override
-  Widget build(BuildContext context) {Future.delayed(Duration(seconds: 4),() {
+  Widget build(BuildContext context) {Future.delayed(Duration(seconds: 1),() {
     Navigator.pushReplacement(
       context,
       MaterialPageRoute(builder: (context) => Home()),

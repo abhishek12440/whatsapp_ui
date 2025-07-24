@@ -57,7 +57,9 @@ class Calls extends StatelessWidget {
               "recents",
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
             ),
-          ), ListTile(trailing:Icon(Icons.call),
+          ),
+          ListTile(
+            trailing: Icon(Icons.call),
             title: Text("abin mass"),
             subtitle: Text("just now"),
             leading: CircleAvatar(
